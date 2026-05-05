@@ -1,0 +1,80 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #b79fff 5%, #FFFFFF 95%);
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.inicio h2, .inicio p{
+    text-align: center;
+}
+
+.legenda{
+    text-align: center;
+}
+
+.inicio img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #5500ff;
+    transition: all 0.3s ease;
+}
+
+.inicio img:hover{
+    transform: scale(1.03);
+}
+
+.inicio nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.inicio nav a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.inicio nav a:link{
+    background-color: #9370DB;
+    color: white;
+    border-color: #5500ff;
+}
+
+.inicio nav a:hover{
+    background-color: #BA55D3;
+    color: rgb(223, 155, 255);
+    transform: translateY(-2px);
+    border-color: #5500ff;
+    box-shadow: 0 4px 8px rgba(255, 0, 255, 0.5);
+}
+
+.inicio nav a:active{
+    background-color: #4B0082;
+    color: white;
+    border-color: #d400ff;
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.pagina{
+    background-color: white;
+    width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.5);
+}
